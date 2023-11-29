@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 165, 120);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 30rem;
+    margin: 20px auto; 
+}
+.main h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(189, 192, 151);
+    
+}
+.main h2{
+    display:  inline-block;
+    background-color: blanchedalmond;
+    border-radius: 14px;
+    padding: 12px 5px;
+    margin: 6px;
+    padding: 20px;
+}
+
+.main button{
+    width: 12rem;
+    padding: 12px 3px;
+    border-radius: 10px;
+    background-color: rgba(227, 193, 142, 0.877);
+    font-size: larger;
+    margin: 3px;
+    box-shadow: 1px 1px 1px rgb(25, 6, 3);
+}
+#pauseGame{
+    display: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 54rem;
+    justify-content: center;
+}
+.square{
+    width: 200px;
+    height: 180px;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 1px 2px 4px black;
+}
+.mole{
+    background: url(/assets/mole.png);
+    background-size: cover;
+    padding: 10px;
+}
